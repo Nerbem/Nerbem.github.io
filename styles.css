@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+}
+
+html,body {
+  width: 100%;
+}
+
+body {
+    background: #0000ca7a;
+    overflow-x: hidden;
+    height: 100%;
+    color: BLACK;
+}
+
+#menu {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  z-index: 99;
+}
+
+.navDisplay1 .Rhomboid {
+  width: 8vh;
+  margin-left: 5%;
+  transform: translateY(-4vh);
+}
+
+.backgroundArticle {
+  background: url(Media/backgrounds/gris.jpg) center center no-repeat;
+  width: 40vw;
+  height: 20vh;
+  position: relative;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15%
+}
+
+.divisor {
+  margin-top: 70vh;
+}
+
+.left .descriptionAbout {
+  text-align: right;
+  width: 74%;
+  height: 100%;
+  transform: translate(3vw, 4.5vh);
+}
+
+.descriptionAbout p {
+  margin: 4em;
+  margin-top: 1em;
+}
